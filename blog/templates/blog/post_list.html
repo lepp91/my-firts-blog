@@ -1,27 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-</head>
-<body>
-            <div>
-            <h1><a href="/">Django Girls Tarea</a></h1>
+<html>
+    <head>
+        <title>Django Girls tarea</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Desarrollo web</a></h1>
         </div>
 
-     {% for post in posts %}
-        <div>
-            <p>publicado: {{ post.published_date }}</p>
-            <h2><a href="">{{ post.title }}</a></h2>
-            <p>{{ post.text|linebreaksbr }}</p>
-        </div>
-{% endfor %}
         <div>
             <p>published: 16.10.2019, 12:14</p>
-            <h2><a href="">Segundo post</a></h2>
-            <p>Comprobando que todo funcione.</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         </div>
-</body>
+
+        <div>
+            <p>published: 16.10.2019, 12:14</p>
+            <h2><a href="">My second post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+        </div>
+    </body>
 </html>
